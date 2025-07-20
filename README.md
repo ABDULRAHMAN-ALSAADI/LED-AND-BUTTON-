@@ -41,6 +41,8 @@ LEDs are connected to digital output pins with current-limiting resistors.
 
 ### 🧠 Code (Arduino)
 
+```cpp
+
 int LEDR = 2;
 int LEDY = 7;
 int LEDG = 8;
@@ -80,7 +82,7 @@ void loop() {
     digitalWrite(LEDG, HIGH);
 }else
     digitalWrite(LEDG, LOW);
-  
-
 }
+
+```
 
