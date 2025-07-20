@@ -43,11 +43,11 @@ LEDs are connected to digital output pins with current-limiting resistors.
 
 ```cpp
 
-int LEDR = 2;
-int LEDY = 7;
-int LEDG = 8;
+int LEDR = 2; 
+int LEDY = 7; 
+int LEDG = 8; 
 
-int Butt0 = 4;
+int Butt0 = 4; 
 int Butt1 = 12;
 int Butt2 = 13;
 int BS0 = 0;
@@ -58,7 +58,7 @@ void setup() {
   pinMode(LEDR, OUTPUT);
   pinMode(LEDY, OUTPUT);
   pinMode(LEDG, OUTPUT);
-  pinMode(Butt0, INPUT_PULLUP); // Use internal pull-up resistor
+  pinMode(Butt0, INPUT_PULLUP); // internal pull-up resistor instead of the external one 
   pinMode(Butt1, INPUT_PULLUP);
   pinMode(Butt2, INPUT_PULLUP);
   
