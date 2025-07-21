@@ -86,3 +86,6 @@ void loop() {
 
 ```
 
+<img width="1706" height="727" alt="LED AND BUTTON" src="https://github.com/user-attachments/assets/eba564b3-e267-40bd-a4b1-953e73333576" />
+
+
